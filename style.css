@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(45deg, #190361, #BB00FF);
+    animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.screen1 {
+    background-color: #FFFFFF;
+    width: 42.8rem;
+    height: 42.4rem;
+    margin: 23.9rem auto;
+    border-radius: 5px;
+    padding-top: 4.8rem;
+    box-shadow: 0px 2rem 5rem rgba(0, 0, 0, 0.8);
+}
+
+.screen1 p {
+    font-family: 'DM sans';
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #34355B;
+    margin-top: 1.4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.screen1 h1 {
+    width: 25.8rem;
+
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #34355B;
+    text-align: center;
+    margin: auto;
+}
+
+.screen1 svg {
+    margin-left: 6.4rem;
+}
+
+.screen2 {
+    background-color: #FFFFFF;
+    width: 42.8rem;
+    height: 56.4rem;
+    margin: 16.9rem auto;
+    border-radius: 5px;
+    padding-top: 4.8rem;
+    box-shadow: 0px 2rem 5rem rgba(0, 0, 0, 0.8);
+}
+
+.screen2 h1 {
+    width: 29.7rem;
+
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #34355B;
+    text-align: center;
+    margin: auto;
+}
+
+.screen2 p {
+    font-family: 'Dancing script';
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    
+    margin: 1.4rem 6.4rem 1.7rem 6.4rem;
+    padding-top: 1rem;
+    text-align: center;
+    color: #000000;
+
+    width: 293px;
+    height: 107px;
+
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+}
+
+.screen2 svg {
+    margin-left: 6.4rem;
+}
+
+.screen2 button {
+    margin-left: 12.7rem;
+
+    font-family: 'DM sans';
+    font-size: 15px;
+    line-height: 20px;
+
+    width: 17.4rem;
+    height: 5.2rem;
+
+    background: #FF9500;
+    color: white;
+    
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-style: none;
+}
+
+.hide {
+    display: none;
+}
